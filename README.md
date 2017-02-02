@@ -1,5 +1,6 @@
 # sbsvc2
 REST Webservice using springboot and gradle
+This is a sample REST webservice completely self contained using spring boot and gradle. It has everything needed to build and run it in a Tomcat container.
 
 ## Setup workspace
 1. Clone this repo
