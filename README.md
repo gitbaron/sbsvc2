@@ -8,14 +8,14 @@ This is a sample REST webservice completely self contained using spring boot and
 	$ git clone https://github.com/gitbaron/sbsvc2.git
 	```
 2. Build using gradle
-	From the command line in the current project path execute the following command.
+	From the command line in the current project path execute the following command. This runs the build using gradle wrapper.
 	```
-	$ ./gradle build
+	$ ./gradlew build
 	```
 3. Run the code
-	From command line
+	From command line run the bootRun task using gradle wrapper.
 	```
-	$ ./gradle bootRun
+	$ ./gradlew bootRun
 	```
 	Logging output is displayed. The service should be up and running within a few seconds.
 
